@@ -296,7 +296,7 @@ log_ret_hists
 
 main = pmui.Tabs(
     (
-        "Analysis",
+        "Analysis ",
         pn.Column(
             pn.Row(plot, pn.Column(summary, table), sizing_mode="stretch_both"),
             performance,
